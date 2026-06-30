@@ -1,0 +1,23 @@
+# Excel temp/lock files (keep the committed dataset, ignore Office lock files)
+~$*.xlsx
+
+# Power BI working files (optional: remove if you want to commit the .pbix)
+# *.pbix
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
